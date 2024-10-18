@@ -2,7 +2,7 @@
     "name": "react-javascript",
     "private": true,
     "version": "0.0.0",
-    "homepage": "https://Henry-kane2.github.io/shopping-app",
+    "homepage": "http://Henry-kane2.github.io/shopping-app",
     "type": "module",
     "scripts": {
         "predeploy": "npm run build",
