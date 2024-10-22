@@ -7,12 +7,10 @@ import { Store } from './Stores'
 import { BrowserRouter } from 'react-router-dom'
 
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <Provider store={Store}>
-    
-      <BrowserRouter >
-      <App/>
-      </BrowserRouter>
-  </Provider >
-)
-//basename={process.env.PUBLIC_URL}
+    <BrowserRouter basename="/shopping-app/">
+      <App />
+    </BrowserRouter>
+  </Provider>
+);
